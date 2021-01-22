@@ -38,14 +38,10 @@ function App() {
 
 	const renderTimeLeft = () => {
 		let className = "counter-unit";
-		console.log(counter)
 		if (counter < 60) className += " shake";
 		return (
 			<div className="counter-container">
-				<div className={className}>
-					{Math.floor(counter / (60 * 60 * 24))}
-					<span className="unit">DAYS</span>
-				</div>
+				<div className={className}>{Math.floor(counter / (60 * 60 * 24))}<span className="unit">DAYS</span></div>
 				<div className={className}>{Math.floor((counter / (60 * 60)) % 24)}<span className="unit">HOURS</span></div>
 				<div className={className}>{Math.floor((counter / 60) % 60)}<span className="unit">MINUTES</span></div>
 				<div className={className}>{Math.floor((counter) % 60)}<span className="unit">SECONDS</span></div>
@@ -74,7 +70,7 @@ function App() {
 	return (
 		<div className="App">
 			<div className="brand">KOALA</div>
-			<img src="https://i.ibb.co/2gDN8M8/koala-logo.png" className="logo" alt="koala-logo" border="0" />
+			<img src="https://i.ibb.co/2gDN8M8/koala-logo.png" className="logo" alt="koala-logo" />
 			<div className="input-container">
 				{!showCounter && renderInputs()}
 				{showCounter && renderTimeLeft()}
