@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/web-eng-challenge/static/css/main.1d0d07b7.chunk.css",
+    "main.js": "/web-eng-challenge/static/js/main.c610a858.chunk.js",
+    "main.js.map": "/web-eng-challenge/static/js/main.c610a858.chunk.js.map",
+    "runtime-main.js": "/web-eng-challenge/static/js/runtime-main.b9a87705.js",
+    "runtime-main.js.map": "/web-eng-challenge/static/js/runtime-main.b9a87705.js.map",
+    "static/js/2.65aa28e4.chunk.js": "/web-eng-challenge/static/js/2.65aa28e4.chunk.js",
+    "static/js/2.65aa28e4.chunk.js.map": "/web-eng-challenge/static/js/2.65aa28e4.chunk.js.map",
+    "static/js/3.73e80bc4.chunk.js": "/web-eng-challenge/static/js/3.73e80bc4.chunk.js",
+    "static/js/3.73e80bc4.chunk.js.map": "/web-eng-challenge/static/js/3.73e80bc4.chunk.js.map",
+    "index.html": "/web-eng-challenge/index.html",
+    "static/css/main.1d0d07b7.chunk.css.map": "/web-eng-challenge/static/css/main.1d0d07b7.chunk.css.map",
+    "static/js/2.65aa28e4.chunk.js.LICENSE.txt": "/web-eng-challenge/static/js/2.65aa28e4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b9a87705.js",
+    "static/js/2.65aa28e4.chunk.js",
+    "static/css/main.1d0d07b7.chunk.css",
+    "static/js/main.c610a858.chunk.js"
+  ]
+}
