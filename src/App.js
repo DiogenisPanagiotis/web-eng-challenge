@@ -54,7 +54,7 @@ function App() {
 			return (
 				<div className="inputContainer">
 					<input 
-						onChange={({target}) => setInput(state => ({...state, [unit]: target.value}))}
+						onChange={({target}) => setInput(state => ({...state, [unit]: Number(target.value.replace(/\D/,''))}))}
 						value={input[unit]}
 						className="input"
 						placeholder={"00"}

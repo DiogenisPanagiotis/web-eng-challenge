@@ -40,6 +40,10 @@
   margin: 10px;
 }
 
+.input::placeholder {
+  color: #82BCEE;
+}
+
 .input:focus, input:focus {
   outline: none;
 }
